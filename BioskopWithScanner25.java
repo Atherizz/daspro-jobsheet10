@@ -50,6 +50,7 @@ public class BioskopWithScanner25 {
             case 2:
             System.out.println("DAFTAR DATA PENONTON");
             for(int i = 0; i < penonton.length; i++) {
+                System.out.println("baris ke  " + (i+1) + " : " );
                 for(int j = 0; j < penonton[0].length; j++) {
                     if (penonton[i][j] == null) {
                         System.out.printf("*** \t ");
@@ -59,6 +60,7 @@ public class BioskopWithScanner25 {
                 }
                 System.out.println();
             }
+            break;
             case 3:
             break;
             default:
